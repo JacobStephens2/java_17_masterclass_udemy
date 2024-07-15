@@ -13,12 +13,20 @@ public class Item {
         this.size = size;
     }
 
-    public Item() {
-        this("Oolong Tea", "drink", 3, "250ml");
+    public Item(String type, double price) {
+        this("item", type, price, "regular");
     }
 
-    public Item(String type) {
-        this("Oolong Tea", type, 3, "250ml");
+    public Item(String name, String type, double price) {
+        this(name, type, price, "regular");
+    }
+
+    public Item() {
+        this("Oolong Tea", "drink", 3, "225ml");
+    }
+
+    public void setSize(String size) {
+        this.size = size;
     }
 
     public double getBasePrice() {
@@ -26,7 +34,7 @@ public class Item {
     }
 
     public double getAdjustedPrice() {
-        return price;
+        return getBasePrice();
     }
 
     public void printItem() {

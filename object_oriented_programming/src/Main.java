@@ -11,12 +11,13 @@ public class Main {
             String customizingMeal = scanner.nextLine();
             if (Objects.equals(customizingMeal, "n")) {
                 MealOrder meal = new MealOrder();
+                meal.addToppings();
                 meal.printItemizedList();
                 meal.printTotal();
                 System.exit(0);
             }
 
-            System.out.println("Sorry, we don't yet know how to customize a meal.\n");
+            System.out.println("Sorry, we don't yet know how to customize a meal.");
         }
 
     }

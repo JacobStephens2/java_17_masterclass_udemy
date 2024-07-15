@@ -9,15 +9,15 @@ public class MealOrder {
     public MealOrder() {
         burger = new Burger();
         drink = new Item();
-        side = new Item("side");
+        side = new Item("Fried Mushrooms", "side", 4, "140g");
     }
 
     public void addToppings() {
-
+        burger.addToppings();
     }
 
-    public void setDrinkSize() {
-
+    public void setDrinkSize(String ml) {
+        drink.setSize(ml + "ml");
     }
 
     public void printItemizedList() {
