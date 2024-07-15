@@ -12,11 +12,11 @@ public class Item {
     }
 
     public double getBasePrice() {
-
+        return price;
     }
 
     public double getAdjustedPrice() {
-
+        return price;
     }
 
     public void printItem() {
