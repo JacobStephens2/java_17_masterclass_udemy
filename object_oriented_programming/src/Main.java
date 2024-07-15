@@ -1,10 +1,23 @@
+import java.util.Objects;
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        // Ask if the customer wants a meal, if no, exit, else continue
+        System.out.print("Welcome to Bill's Burgers! ");
 
-        // Ask if the customer wants to customize their meal, if no, give default meal, else ask about customizations
+        Scanner scanner = new Scanner(System.in);
+        while(true) {
+            System.out.println("Would you like to customize your meal? (y or n)");
+            String customizingMeal = scanner.nextLine();
+            if (Objects.equals(customizingMeal, "n")) {
+                MealOrder meal = new MealOrder();
+                meal.printItemizedList();
+                meal.printTotal();
+                System.exit(0);
+            }
 
-        // Meals are composed of items, items have subclasses
-        // (ex. different types of burgers)
+            System.out.println("Sorry, we don't yet know how to customize a meal.\n");
+        }
+
     }
 }

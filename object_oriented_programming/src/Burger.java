@@ -4,10 +4,7 @@ public class Burger extends Item {
     private Item extra3;
 
     public Burger() {
-        name = "Sous Vide Burger";
-        type = "burger";
-        price = 10;
-        size = "113 g";
+        super("Bleu Cheese Burger", "burger", 10, "113g");
     }
 
     public void addToppings() {
