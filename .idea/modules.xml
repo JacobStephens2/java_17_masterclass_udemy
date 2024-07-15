@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/encapsulation/encapsulation.iml" filepath="$PROJECT_DIR$/encapsulation/encapsulation.iml" />
       <module fileurl="file://$PROJECT_DIR$/inheritance/inheritance.iml" filepath="$PROJECT_DIR$/inheritance/inheritance.iml" />
       <module fileurl="file://$PROJECT_DIR$/java_17_masterclass_udemy.iml" filepath="$PROJECT_DIR$/java_17_masterclass_udemy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/object_oriented_programming/object_oriented_programming.iml" filepath="$PROJECT_DIR$/object_oriented_programming/object_oriented_programming.iml" />
       <module fileurl="file://$PROJECT_DIR$/polymorphism/polymorphism.iml" filepath="$PROJECT_DIR$/polymorphism/polymorphism.iml" />
     </modules>
   </component>
