@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="113bb111-1bc0-4cdb-81c1-5495a4d4df56" name="Changes" comment="Get main to run by returning doubles to methods that have double as their return type">
+    <list default="true" id="113bb111-1bc0-4cdb-81c1-5495a4d4df56" name="Changes" comment="Enable ordering default meal such that prints item list and price total">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/object_oriented_programming_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/object_oriented_programming/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_oriented_programming/src/Burger.java" beforeDir="false" afterPath="$PROJECT_DIR$/object_oriented_programming/src/Burger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_oriented_programming/src/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/object_oriented_programming/src/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_oriented_programming/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/object_oriented_programming/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_oriented_programming/src/MealOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/object_oriented_programming/src/MealOrder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +53,9 @@
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/Users/pink/Documents/java/java_17_masterclass_udemy/object_oriented_programming/src/Main.java",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
@@ -105,13 +106,22 @@
       <option name="project" value="LOCAL" />
       <updated>1721013002337</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Enable ordering default meal such that prints item list and price total">
+      <option name="closed" value="true" />
+      <created>1721014873570</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721014873570</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="move inheritance files to folder" />
     <MESSAGE value="Outline classes with properties and methods" />
     <MESSAGE value="Get main to run by returning doubles to methods that have double as their return type" />
-    <option name="LAST_COMMIT_MESSAGE" value="Get main to run by returning doubles to methods that have double as their return type" />
+    <MESSAGE value="Enable ordering default meal such that prints item list and price total" />
+    <option name="LAST_COMMIT_MESSAGE" value="Enable ordering default meal such that prints item list and price total" />
   </component>
 </project>
