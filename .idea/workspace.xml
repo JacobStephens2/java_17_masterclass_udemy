@@ -9,8 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="113bb111-1bc0-4cdb-81c1-5495a4d4df56" name="Changes" comment="add class that finds the minimum element from an array of user input numbers">
-      <change afterPath="$PROJECT_DIR$/arrays/src/net/jacobstephens/arrays/SortArrayDescending.java" afterDir="false" />
+    <list default="true" id="113bb111-1bc0-4cdb-81c1-5495a4d4df56" name="Changes" comment="move oop files into oop folder">
+      <change afterPath="$PROJECT_DIR$/arrays/src/net/jacobstephens/arrays/ReverseArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/arrays/src/net/jacobstephens/arrays/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/src/net/jacobstephens/arrays/Main.java" afterDir="false" />
     </list>
@@ -176,7 +176,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721166862646</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="sort randomly generated array in descending order">
+      <option name="closed" value="true" />
+      <created>1721167203286</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1721167203286</updated>
+    </task>
+    <task id="LOCAL-00010" summary="move oop files into oop folder">
+      <option name="closed" value="true" />
+      <created>1721167307719</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1721167307719</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -187,8 +203,9 @@
     <MESSAGE value="Enable ordering default meal such that prints item list and price total" />
     <MESSAGE value="set .jar as artifact to build from oop folder" />
     <MESSAGE value="add toppings to burger for default order" />
-    <MESSAGE value="move oop files into oop folder" />
     <MESSAGE value="add class that finds the minimum element from an array of user input numbers" />
-    <option name="LAST_COMMIT_MESSAGE" value="add class that finds the minimum element from an array of user input numbers" />
+    <MESSAGE value="sort randomly generated array in descending order" />
+    <MESSAGE value="move oop files into oop folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="move oop files into oop folder" />
   </component>
 </project>
