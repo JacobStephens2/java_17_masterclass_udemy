@@ -4,7 +4,6 @@ public class Burger extends Item {
     private Item[] extras;
     
     public Burger(String type, double price) {
-
         switch(type) {
             case "deluxe":
             case "blue cheese":

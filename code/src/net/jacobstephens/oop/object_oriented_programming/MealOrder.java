@@ -23,6 +23,7 @@ public class MealOrder {
     }
 
     public void printItemizedList() {
+        System.out.println("Here's a list of the items in your meal");
         burger.printItem();
         drink.printItem();
         side.printItem();

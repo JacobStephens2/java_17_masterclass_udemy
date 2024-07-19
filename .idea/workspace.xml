@@ -9,10 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="113bb111-1bc0-4cdb-81c1-5495a4d4df56" name="Changes" comment="organize groups of classes into packages">
+    <list default="true" id="113bb111-1bc0-4cdb-81c1-5495a4d4df56" name="Changes" comment="use Item array for multiple extras on Burger class rather than multiple Item fields">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/object_oriented_programming/Burger.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/object_oriented_programming/Burger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/object_oriented_programming/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/object_oriented_programming/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/object_oriented_programming/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/object_oriented_programming/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/object_oriented_programming/MealOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/object_oriented_programming/MealOrder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,7 +252,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721357820709</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="reorder constructors by number of params needed ascending">
+      <option name="closed" value="true" />
+      <created>1721421834866</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1721421834866</updated>
+    </task>
+    <task id="LOCAL-00013" summary="use Item array for multiple extras on Burger class rather than multiple Item fields">
+      <option name="closed" value="true" />
+      <created>1721421874534</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1721421874534</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -265,6 +283,8 @@
     <MESSAGE value="sort randomly generated array in descending order" />
     <MESSAGE value="move oop files into oop folder" />
     <MESSAGE value="organize groups of classes into packages" />
-    <option name="LAST_COMMIT_MESSAGE" value="organize groups of classes into packages" />
+    <MESSAGE value="reorder constructors by number of params needed ascending" />
+    <MESSAGE value="use Item array for multiple extras on Burger class rather than multiple Item fields" />
+    <option name="LAST_COMMIT_MESSAGE" value="use Item array for multiple extras on Burger class rather than multiple Item fields" />
   </component>
 </project>

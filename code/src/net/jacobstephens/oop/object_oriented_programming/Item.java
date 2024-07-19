@@ -38,6 +38,8 @@ public class Item {
     }
 
     public void printItem() {
-        System.out.printf("%s (%s %s) $%.2f\n", name, size, type, getBasePrice());
+        System.out.printf("%s (%s %s) $%.2f\n",
+            name, size, type, getBasePrice()
+        );
     }
 }

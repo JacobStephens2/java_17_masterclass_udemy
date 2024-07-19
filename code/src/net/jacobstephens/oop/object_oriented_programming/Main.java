@@ -5,22 +5,41 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.print("Welcome to Bill's Burgers! ");
-
+        System.out.println("Welcome to Bill's Burgers! " +
+            "Would you like to customize your meal? (y or n, or q to leave)"
+        );
         Scanner scanner = new Scanner(System.in);
         while(true) {
-            System.out.println("Would you like to customize your meal? (y or n)");
-            String customizingMeal = scanner.nextLine();
-            if (Objects.equals(customizingMeal, "n")) {
-                MealOrder meal = new MealOrder();
-                meal.addToppings();
-                meal.printItemizedList();
-                meal.printTotal();
-                System.exit(0);
+            String response = scanner.nextLine();
+            MealOrder meal = new MealOrder();
+            switch(response) {
+                case "q":
+                    System.out.println("Have a good day!");
+                    System.exit(0);
+                    break;
+                case "n":
+                    meal.addToppings();
+                    break;
+                case "y":
+                    System.out.println("Would you like a small (s) or large (l) coke?");
+                    String drinkChoice = scanner.nextLine();
+                    drinkChoice = switch(drinkChoice) {
+                        case "s" -> "225";
+                        case "l" -> "340";
+                        default -> {
+                            System.out.println("We'll add a large coke to your order.");
+                            yield "340";
+                        }
+                    };
+                    meal.setDrinkSize(drinkChoice);
+                    break;
+                default:
+                    System.out.println("We didn't quite catch that.");
+                    continue;
             }
-
-            System.out.println("Sorry, we don't yet know how to customize a meal.");
+            meal.printItemizedList();
+            meal.printTotal();
+            System.out.println("Would you like to order another meal? (y or n, or q to leave)");
         }
-
     }
 }
