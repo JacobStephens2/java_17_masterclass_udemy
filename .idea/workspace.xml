@@ -2,17 +2,19 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="object_oriented_programming:jar" />
+      <artifact name="bills_burgers:jar" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="113bb111-1bc0-4cdb-81c1-5495a4d4df56" name="Changes" comment="enable customizing drink choice">
+    <list default="true" id="113bb111-1bc0-4cdb-81c1-5495a4d4df56" name="Changes" comment="Move goodbye message into a method">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/bills_burgers_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/object_oriented_programming_jar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/object_oriented_programming/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/object_oriented_programming/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/object_oriented_programming/MealOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/object_oriented_programming/MealOrder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +69,7 @@
     "onboarding.tips.debug.path": "/Users/pink/Documents/java/java_17_masterclass_udemy/object_oriented_programming/src/Main.java",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
+    "project.structure.side.proportion": "0.30804598",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
@@ -274,7 +276,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721424054295</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Move goodbye message into a method">
+      <option name="closed" value="true" />
+      <created>1721425504255</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1721425504255</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -292,17 +302,7 @@
     <MESSAGE value="reorder constructors by number of params needed ascending" />
     <MESSAGE value="use Item array for multiple extras on Burger class rather than multiple Item fields" />
     <MESSAGE value="enable customizing drink choice" />
-    <option name="LAST_COMMIT_MESSAGE" value="enable customizing drink choice" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/code/src/net/jacobstephens/oop/object_oriented_programming/Main.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Move goodbye message into a method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Move goodbye message into a method" />
   </component>
 </project>
