@@ -13,12 +13,12 @@ public class Item {
         this.size = size;
     }
 
-    public Item(String type, double price) {
-        this("item", type, price, "regular");
-    }
-
     public Item(String name, String type, double price) {
         this(name, type, price, "regular");
+    }
+
+    public Item(String type, double price) {
+        this("item", type, price, "regular");
     }
 
     public Item() {
