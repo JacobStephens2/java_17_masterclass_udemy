@@ -9,47 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="113bb111-1bc0-4cdb-81c1-5495a4d4df56" name="Changes" comment="move oop files into oop folder">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="113bb111-1bc0-4cdb-81c1-5495a4d4df56" name="Changes" comment="organize groups of classes into packages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arrays/arrays.iml" beforeDir="false" afterPath="$PROJECT_DIR$/code/code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arrays/src/net/jacobstephens/arrays/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/arrays/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arrays/src/net/jacobstephens/arrays/MinimumElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/arrays/MinimumElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arrays/src/net/jacobstephens/arrays/ReverseArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/arrays/ReverseArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arrays/src/net/jacobstephens/arrays/SortArrayDescending.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/arrays/SortArrayDescending.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_oriented_programming/composition/.idea/SmartKitchenChallenge.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_oriented_programming/composition/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_oriented_programming/composition/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_oriented_programming/composition/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_oriented_programming/composition/src/Appliance.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/composition/Appliance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_oriented_programming/composition/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/composition/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_oriented_programming/composition/src/SmartKitchen.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/composition/SmartKitchen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_oriented_programming/encapsulation/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_oriented_programming/encapsulation/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_oriented_programming/encapsulation/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_oriented_programming/encapsulation/encapsulation.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_oriented_programming/encapsulation/encapsulation_two.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_oriented_programming/encapsulation/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/encapsulation/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_oriented_programming/encapsulation/src/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/encapsulation/Printer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_oriented_programming/inheritance/ClassesChallenge.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_oriented_programming/inheritance/inheritance.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_oriented_programming/inheritance/src/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/inheritance/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_oriented_programming/inheritance/src/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/inheritance/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_oriented_programming/inheritance/src/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/inheritance/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_oriented_programming/inheritance/src/Cylinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/inheritance/Cylinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_oriented_programming/inheritance/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/inheritance/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_oriented_programming/object_oriented_programming/src/Burger.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/object_oriented_programming/Burger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_oriented_programming/object_oriented_programming/src/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/object_oriented_programming/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_oriented_programming/object_oriented_programming/src/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_oriented_programming/object_oriented_programming/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/object_oriented_programming/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_oriented_programming/object_oriented_programming/src/MealOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/object_oriented_programming/MealOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_oriented_programming/polymorphism/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_oriented_programming/polymorphism/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_oriented_programming/polymorphism/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_oriented_programming/polymorphism/polymorphism.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_oriented_programming/polymorphism/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/polymorphism/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_oriented_programming/polymorphism/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/polymorphism/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/object_oriented_programming/Burger.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/object_oriented_programming/Burger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/object_oriented_programming/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/object_oriented_programming/Item.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +59,7 @@
     "Application.Main.executor": "Run",
     "Application.net.jacobstephens.arrays.Main.executor": "Run",
     "Application.net.jacobstephens.oop.inheritance.Main.executor": "Run",
+    "Application.net.jacobstephens.oop.object_oriented_programming.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -116,7 +80,7 @@
       <recent name="$PROJECT_DIR$/code/src/net/jacobstephens/oop/inheritance" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.net.jacobstephens.oop.object_oriented_programming.Main">
     <configuration name="net.jacobstephens.arrays.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="net.jacobstephens.arrays.Main" />
       <module name="code" />
@@ -130,6 +94,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="net.jacobstephens.oop.composition.Main" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-22" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="net.jacobstephens.oop.composition.Main" />
+      <module name="code" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="net.jacobstephens.oop.encapsulation.Main" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-22" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="net.jacobstephens.oop.encapsulation.Main" />
+      <module name="code" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="net.jacobstephens.oop.inheritance.Main" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-22" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -139,8 +121,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="net.jacobstephens.oop.object_oriented_programming.Main" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-22" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="net.jacobstephens.oop.object_oriented_programming.Main" />
+      <module name="code" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="net.jacobstephens.oop.polymorphism.Main" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-22" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="net.jacobstephens.oop.polymorphism.Main" />
+      <module name="code" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.net.jacobstephens.oop.object_oriented_programming.Main" />
       <item itemvalue="Application.net.jacobstephens.oop.inheritance.Main" />
+      <item itemvalue="Application.net.jacobstephens.oop.composition.Main" />
+      <item itemvalue="Application.net.jacobstephens.oop.encapsulation.Main" />
+      <item itemvalue="Application.net.jacobstephens.oop.polymorphism.Main" />
       <item itemvalue="Application.net.jacobstephens.arrays.Main" />
     </list>
     <recent_temporary>
@@ -238,7 +242,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721167307719</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="organize groups of classes into packages">
+      <option name="closed" value="true" />
+      <created>1721357820709</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1721357820709</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -252,6 +264,7 @@
     <MESSAGE value="add class that finds the minimum element from an array of user input numbers" />
     <MESSAGE value="sort randomly generated array in descending order" />
     <MESSAGE value="move oop files into oop folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="move oop files into oop folder" />
+    <MESSAGE value="organize groups of classes into packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="organize groups of classes into packages" />
   </component>
 </project>
