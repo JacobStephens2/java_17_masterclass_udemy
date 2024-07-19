@@ -10,9 +10,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="113bb111-1bc0-4cdb-81c1-5495a4d4df56" name="Changes" comment="move oop files into oop folder">
-      <change afterPath="$PROJECT_DIR$/arrays/src/net/jacobstephens/arrays/ReverseArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arrays/src/net/jacobstephens/arrays/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/src/net/jacobstephens/arrays/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/arrays.iml" beforeDir="false" afterPath="$PROJECT_DIR$/code/code.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/src/net/jacobstephens/arrays/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/arrays/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/src/net/jacobstephens/arrays/MinimumElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/arrays/MinimumElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/src/net/jacobstephens/arrays/ReverseArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/arrays/ReverseArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays/src/net/jacobstephens/arrays/SortArrayDescending.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/arrays/SortArrayDescending.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_oriented_programming/composition/.idea/SmartKitchenChallenge.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_oriented_programming/composition/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_oriented_programming/composition/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_oriented_programming/composition/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_oriented_programming/composition/src/Appliance.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/composition/Appliance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_oriented_programming/composition/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/composition/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_oriented_programming/composition/src/SmartKitchen.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/composition/SmartKitchen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_oriented_programming/encapsulation/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_oriented_programming/encapsulation/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_oriented_programming/encapsulation/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_oriented_programming/encapsulation/encapsulation.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_oriented_programming/encapsulation/encapsulation_two.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_oriented_programming/encapsulation/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/encapsulation/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_oriented_programming/encapsulation/src/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/encapsulation/Printer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_oriented_programming/inheritance/ClassesChallenge.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_oriented_programming/inheritance/inheritance.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_oriented_programming/inheritance/src/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/inheritance/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_oriented_programming/inheritance/src/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/inheritance/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_oriented_programming/inheritance/src/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/inheritance/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_oriented_programming/inheritance/src/Cylinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/inheritance/Cylinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_oriented_programming/inheritance/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/inheritance/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_oriented_programming/object_oriented_programming/src/Burger.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/object_oriented_programming/Burger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_oriented_programming/object_oriented_programming/src/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/object_oriented_programming/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_oriented_programming/object_oriented_programming/src/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_oriented_programming/object_oriented_programming/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/object_oriented_programming/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_oriented_programming/object_oriented_programming/src/MealOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/object_oriented_programming/MealOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_oriented_programming/polymorphism/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_oriented_programming/polymorphism/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_oriented_programming/polymorphism/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_oriented_programming/polymorphism/polymorphism.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_oriented_programming/polymorphism/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/polymorphism/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_oriented_programming/polymorphism/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/polymorphism/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,40 +89,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.net.jacobstephens.arrays.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/pink/Documents/java/java_17_masterclass_udemy/object_oriented_programming/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Application.Main.executor": "Run",
+    "Application.net.jacobstephens.arrays.Main.executor": "Run",
+    "Application.net.jacobstephens.oop.inheritance.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "/Users/pink/Documents/java/java_17_masterclass_udemy/object_oriented_programming/src/Main.java",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/arrays/src" />
-      <recent name="$PROJECT_DIR$/arrays" />
+      <recent name="$PROJECT_DIR$/code/src/net/jacobstephens/oop/object_oriented_programming" />
+      <recent name="$PROJECT_DIR$/code/src/net/jacobstephens/oop/polymorphism" />
+      <recent name="$PROJECT_DIR$/code/src/net/jacobstephens/oop/composition" />
+      <recent name="$PROJECT_DIR$/code/src/net/jacobstephens/oop/encapsulation" />
+      <recent name="$PROJECT_DIR$/code/src/net/jacobstephens/oop/inheritance" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.net.jacobstephens.arrays.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="object_oriented_programming" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="net.jacobstephens.arrays.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="net.jacobstephens.arrays.Main" />
-      <module name="arrays" />
+      <module name="code" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="net.jacobstephens.arrays.*" />
@@ -96,10 +130,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="net.jacobstephens.oop.inheritance.Main" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-22" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="net.jacobstephens.oop.inheritance.Main" />
+      <module name="code" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.net.jacobstephens.oop.inheritance.Main" />
+      <item itemvalue="Application.net.jacobstephens.arrays.Main" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.net.jacobstephens.arrays.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
