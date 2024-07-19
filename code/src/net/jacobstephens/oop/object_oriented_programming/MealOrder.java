@@ -23,18 +23,19 @@ public class MealOrder {
     }
 
     public void printItemizedList() {
-        System.out.println("Here's a list of the items in your meal");
+        System.out.println("Here's a list of the items in this meal");
         burger.printItem();
         drink.printItem();
         side.printItem();
     }
 
-    public void printTotal() {
+    public double printTotal() {
         double total = 0;
         total += burger.getAdjustedPrice();
         total += drink.getAdjustedPrice();
         total += side.getAdjustedPrice();
-        System.out.printf("Your total is $%.2f\n", total);
+        System.out.printf("The total for this meal is $%.2f\n", total);
+        return total;
     }
 
 }
