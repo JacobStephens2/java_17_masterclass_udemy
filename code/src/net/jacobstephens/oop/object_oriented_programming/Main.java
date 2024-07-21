@@ -2,68 +2,72 @@ package net.jacobstephens.oop.object_oriented_programming;
 
 import java.util.Objects;
 import java.util.Scanner;
+import java.util.concurrent.TimeUnit;
 
 public class Main {
     public static void main(String[] args) {
+        try {
+            int pauseAfterStatement = 1500;
+            int processResponse = 500;
+            Scanner scanner = new Scanner(System.in);
+            int mealsOrdered = 0;
+            double grandTotal = 0.00;
+            MealOrder defaultMeal = new MealOrder();
 
-        System.out.print("Welcome to Bill's Burgers! ");
-        Scanner scanner = new Scanner(System.in);
-        int mealsOrdered = 0;
-        double grandTotal = 0.00;
-        MealOrder meal = new MealOrder();
-        while(true) {
-            System.out.println("Would you like to customize this meal? (y or n, or q to leave)");
-            String response = scanner.nextLine();
+            System.out.printf("\nWelcome to Bill's Burgers!\n");
+            Thread.sleep(pauseAfterStatement);
 
-            switch(response) {
-                case "q":
-                    outputGoodbye(mealsOrdered, grandTotal);
-                    break;
-                case "n":
-                    mealsOrdered++;
-                    break;
-                case "y":
-                    mealsOrdered++;
-                    System.out.println("Would you like a small (s) or large (l) coke?");
-                    String drinkChoice = scanner.nextLine();
-                    drinkChoice = switch(drinkChoice) {
-                        case "s" -> "225";
-                        case "l" -> "340";
-                        default -> {
-                            System.out.println("We'll add a large coke to your order.");
-                            yield "340";
-                        }
-                    };
-                    meal.setDrinkSize(drinkChoice);
-                    break;
-                default:
-                    System.out.println("We didn't quite catch that.");
-                    continue;
+            System.out.println("Here's a list of items in the default meal.");
+            Thread.sleep(pauseAfterStatement);
+
+            defaultMeal.printItemizedList();
+            Thread.sleep(pauseAfterStatement);
+
+            grandTotal += defaultMeal.printTotal();
+            Thread.sleep(pauseAfterStatement);
+
+            System.out.println("Would you like to customize this meal? (yes or no)");
+            if(Objects.equals(scanner.nextLine(), "yes")) {
+                Thread.sleep(processResponse);
+
+                System.out.println("Would you like coke or tea?");
+                String drink = scanner.nextLine();
+                Thread.sleep(processResponse);
+
+                String drinkSize = getSizeChoice(drink);
+                Thread.sleep(processResponse);
+
+                System.out.println("Would you like fries or salad?");
+                String side = scanner.next();
+                Thread.sleep(processResponse);
+
+                String sideSize = getSizeChoice(side);
+                Thread.sleep(processResponse);
+
+                MealOrder meal = new MealOrder(drink, side, sideSize);
+                meal.setDrinkSize(drinkSize);
+
+                System.out.println("Here's a list of items in your custom meal.");
+                Thread.sleep(pauseAfterStatement);
+
+                meal.printItemizedList();
+                Thread.sleep(pauseAfterStatement);
+
+                grandTotal += meal.printTotal();
+                Thread.sleep(pauseAfterStatement);
+            } else {
+                Thread.sleep(processResponse);
             }
-            meal.printItemizedList();
-            grandTotal += meal.printTotal();
-            System.out.printf("Your grand total so far is %.2f ₽. ", grandTotal);
-            System.out.println("Would you like to order another meal? (y or n)");
-            if(Objects.equals(scanner.nextLine(), "y")) {
-                continue;
-            }
-            outputGoodbye(mealsOrdered, grandTotal);
+            System.out.printf("Your total is %.2f ₽. Enjoy your meal!\n", grandTotal);
+            Thread.sleep(pauseAfterStatement);
+        } catch (Exception e){
+            System.out.println("We caught an exception.");
         }
     }
 
-    public static void outputGoodbye(int mealsOrdered, double grandTotal) {
-        switch (mealsOrdered) {
-            case 0:
-                System.out.print("Have a good day!");
-                break;
-            case 1:
-                System.out.printf("Your total is %.2f ₽. ", grandTotal);
-                System.out.print("Enjoy your meal!");
-                break;
-            default:
-                System.out.printf("Your grand total is %.2f ₽. ", grandTotal);
-                System.out.printf("Enjoy your %d meals!", mealsOrdered);
-        }
-        System.exit(0);
+    public static String getSizeChoice(String item) {
+        System.out.printf("Would you like a small or large %s?\n", item);
+        Scanner scanner = new Scanner(System.in);
+        return scanner.nextLine();
     }
 }

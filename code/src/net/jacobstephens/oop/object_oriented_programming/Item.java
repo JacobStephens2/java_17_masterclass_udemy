@@ -14,19 +14,27 @@ public class Item {
     }
 
     public Item(String name, String type, double price) {
-        this(name, type, price, "regular");
+        this(name, type, price, "small");
     }
 
-    public Item(String type, double price) {
-        this("item", type, price, "regular");
+    public Item(String name, String size) {
+        this(name, "side", 58, size);
+    }
+
+    public Item(String name) {
+        this(name, "drink", 87, "small");
     }
 
     public Item() {
-        this("coke", "drink", 87, "225ml");
+        this("coke", "drink", 87, "small");
     }
 
     public void setSize(String size) {
         this.size = size;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
     }
 
     public double getBasePrice() {
@@ -38,8 +46,8 @@ public class Item {
     }
 
     public void printItem() {
-        System.out.printf("%s (%s %s) %.2f ₽\n",
-            name, size, type, getBasePrice()
+        System.out.printf("  %s: %s %s, %.2f ₽\n",
+            type, size, name, getBasePrice()
         );
     }
 }

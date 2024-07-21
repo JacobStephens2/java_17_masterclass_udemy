@@ -1,5 +1,7 @@
 package net.jacobstephens.oop.object_oriented_programming;
 
+import java.util.Objects;
+
 // Meals are composed of items, items have subclasses
 // (ex. different types of burgers)
 public class MealOrder {
@@ -11,22 +13,33 @@ public class MealOrder {
     public MealOrder() {
         burger = new Burger();
         drink = new Item();
-        side = new Item("fries", "side", 58, "140g");
+        side = new Item("fries", "side", 58, "small");
+    }
+
+    public MealOrder(String drinkName, String sideName, String sideSize) {
+        burger = new Burger();
+        drink = new Item(drinkName);
+        side = new Item(sideName, sideSize);
     }
 
     public void addToppings() {
         burger.addToppings();
     }
 
-    public void setDrinkSize(String ml) {
-        drink.setSize(ml + "ml");
+    public void setDrinkSize(String size) {
+        double price = 87;
+        if(Objects.equals(size, "large")) {
+            price = 100;
+        }
+        drink.setSize(size);
+        drink.setPrice(price);
     }
 
     public void printItemizedList() {
-        System.out.println("Here's a list of the items in this meal");
         burger.printItem();
         drink.printItem();
         side.printItem();
+        System.out.println("  ---");
     }
 
     public double printTotal() {
@@ -34,7 +47,7 @@ public class MealOrder {
         total += burger.getAdjustedPrice();
         total += drink.getAdjustedPrice();
         total += side.getAdjustedPrice();
-        System.out.printf("The total for this meal is %.2f ₽\n", total);
+        System.out.printf("  The total for this meal is %.2f ₽\n", total);
         return total;
     }
 

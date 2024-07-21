@@ -4,7 +4,7 @@ public class Burger extends Item {
     private Item[] extras;
     
     public Burger() {
-        super("regular", "burger", 300, "170g");
+        super("burger", "burger", 300, "regular");
     }
 
     public void addToppings() {
