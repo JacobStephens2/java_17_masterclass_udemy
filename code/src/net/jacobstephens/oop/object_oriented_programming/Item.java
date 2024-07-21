@@ -22,7 +22,7 @@ public class Item {
     }
 
     public Item() {
-        this("Coke", "drink", 3, "225ml");
+        this("coke", "drink", 87, "225ml");
     }
 
     public void setSize(String size) {
@@ -38,7 +38,7 @@ public class Item {
     }
 
     public void printItem() {
-        System.out.printf("%s (%s %s) $%.2f\n",
+        System.out.printf("%s (%s %s) %.2f ₽\n",
             name, size, type, getBasePrice()
         );
     }

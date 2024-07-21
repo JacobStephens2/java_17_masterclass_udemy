@@ -9,9 +9,9 @@ public class MealOrder {
     public Item side;
 
     public MealOrder() {
-        burger = new Burger("regular", 8);
+        burger = new Burger();
         drink = new Item();
-        side = new Item("fries", "side", 4, "140g");
+        side = new Item("fries", "side", 58, "140g");
     }
 
     public void addToppings() {
@@ -34,7 +34,7 @@ public class MealOrder {
         total += burger.getAdjustedPrice();
         total += drink.getAdjustedPrice();
         total += side.getAdjustedPrice();
-        System.out.printf("The total for this meal is $%.2f\n", total);
+        System.out.printf("The total for this meal is %.2f ₽\n", total);
         return total;
     }
 
