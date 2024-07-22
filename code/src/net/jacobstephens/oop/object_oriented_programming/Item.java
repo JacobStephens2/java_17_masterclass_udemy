@@ -17,8 +17,8 @@ public class Item {
         this(name, type, price, "small");
     }
 
-    public Item(String name, String size) {
-        this(name, "side", 58, size);
+    public Item(String name, String type) {
+        this(name, type, 58, "regular");
     }
 
     public Item(String name) {
@@ -35,6 +35,10 @@ public class Item {
 
     public void setPrice(double price) {
         this.price = price;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public double getBasePrice() {

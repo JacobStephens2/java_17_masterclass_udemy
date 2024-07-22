@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="113bb111-1bc0-4cdb-81c1-5495a4d4df56" name="Changes" comment="get default meal to have burger and coke instead of two cokes">
+    <list default="true" id="113bb111-1bc0-4cdb-81c1-5495a4d4df56" name="Changes" comment="enable customizing side choice and remove ability to order multiple meals">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/object_oriented_programming/Burger.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/object_oriented_programming/Burger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/object_oriented_programming/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/object_oriented_programming/Item.java" afterDir="false" />
@@ -300,7 +300,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721598760314</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="enable customizing side choice and remove ability to order multiple meals">
+      <option name="closed" value="true" />
+      <created>1721605471577</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1721605471577</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -321,6 +329,7 @@
     <MESSAGE value="Move goodbye message into a method" />
     <MESSAGE value="build v1.1" />
     <MESSAGE value="get default meal to have burger and coke instead of two cokes" />
-    <option name="LAST_COMMIT_MESSAGE" value="get default meal to have burger and coke instead of two cokes" />
+    <MESSAGE value="enable customizing side choice and remove ability to order multiple meals" />
+    <option name="LAST_COMMIT_MESSAGE" value="enable customizing side choice and remove ability to order multiple meals" />
   </component>
 </project>

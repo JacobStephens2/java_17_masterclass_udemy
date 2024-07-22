@@ -16,10 +16,10 @@ public class MealOrder {
         side = new Item("fries", "side", 58, "small");
     }
 
-    public MealOrder(String drinkName, String sideName, String sideSize) {
-        burger = new Burger();
+    public MealOrder(String burgerName, String drinkName, String sideName) {
+        burger = new Burger(burgerName);
         drink = new Item(drinkName);
-        side = new Item(sideName, sideSize);
+        side = new Item(sideName, "side");
     }
 
     public void addToppings() {
