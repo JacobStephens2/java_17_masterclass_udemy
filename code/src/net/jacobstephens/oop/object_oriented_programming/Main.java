@@ -15,6 +15,7 @@ public class Main {
             System.out.println("Here's a list of items in the default meal.");
 
             defaultMeal.printItemizedList();
+            defaultMeal.printTotal();
 
             System.out.println("Would you like to customize this meal? (yes or no)");
             if(Objects.equals(scanner.nextLine(), "yes")) {
@@ -37,6 +38,7 @@ public class Main {
                 System.out.println("Here's a list of items in your custom meal.");
 
                 meal.printItemizedList();
+                meal.printTotal();
 
             }
             System.out.println("Enjoy your meal!");

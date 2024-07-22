@@ -29,12 +29,20 @@ public class Item {
         this("coke", "drink", 87, "small");
     }
 
+    public String getName() {
+        return name;
+    }
+
     public void setSize(String size) {
         this.size = size;
     }
 
     public void setPrice(double price) {
         this.price = price;
+    }
+
+    public void addToPrice(double price) {
+        this.price += price;
     }
 
     public void setName(String name) {

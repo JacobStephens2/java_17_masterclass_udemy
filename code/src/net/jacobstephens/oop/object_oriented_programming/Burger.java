@@ -19,6 +19,7 @@ public class Burger extends Item {
                     break;
                 case "deluxe":
                     extras = new Item[5];
+                    setPrice(400);
                     break;
             }
             addToppings();
@@ -26,29 +27,30 @@ public class Burger extends Item {
     }
 
     public void addToppings() {
-        String[] toppings = { "lettuce", "tomato", "onion", "cheese", "mayo" };
+        String[][] toppings = {
+            {"lettuce", "30"},
+            {"tomato", "40"},
+            {"onion", "35"},
+            {"cheese", "50"},
+            {"mayo", "20"}
+        };
         Scanner scanner = new Scanner(System.in);
         System.out.printf("You can add up to %d toppings.\n", extras.length);
         for (int i = 0; i < extras.length; i++) {
-            System.out.printf("Do you want %s? yes or no?\n", toppings[i]);
-            extras[i] = new Item();
+            double toppingPrice = Integer.parseInt(toppings[i][1]);
+            if (Objects.equals(size, "deluxe")) {
+                toppingPrice = 0;
+            }
+            System.out.printf("Do you want %s for %.2f ₽? yes or no?\n", toppings[i][0], toppingPrice);
             if (Objects.equals(scanner.nextLine(), "yes")) {
-                extras[i].setName(toppings[i]);
+                extras[i] = new Item(toppings[i][0], "topping", toppingPrice);
             }
         }
         for (Item extra : extras) {
-            if (!Objects.equals(extra.name, "coke")) {
-                System.out.printf("You have added %s as a topping.\n", extra.name);
+            if (extra != null && !Objects.equals(extra.name, "coke")) {
+                System.out.printf("You added %s as a topping (%.2f ₽).\n", extra.getName(), extra.getBasePrice());
+                addToPrice(extra.getBasePrice());
             }
         }
-//        extras = new Item[3];
-//        extras[0] = new Item("blue cheese", "topping", 20);
-//        extras[1] = new Item("bacon", "topping", 30);
-//        extras[2] = new Item("caramelized onions", "topping", 10);
-//        name = "Blue Cheese Bacon Burger";
-//        size = "100g";
-//        for (Item extra : extras) {
-//            price += extra.getBasePrice();
-//        }
     }
 }

@@ -13,7 +13,7 @@ public class MealOrder {
     public MealOrder() {
         burger = new Burger();
         drink = new Item();
-        side = new Item("fries", "side", 58, "small");
+        side = new Item("fries", "side", 58, "regular");
     }
 
     public MealOrder(String burgerName, String drinkName, String sideName) {
@@ -42,13 +42,12 @@ public class MealOrder {
         System.out.println("  ---");
     }
 
-    public double printTotal() {
+    public void printTotal() {
         double total = 0;
         total += burger.getAdjustedPrice();
-        total += drink.getAdjustedPrice();
-        total += side.getAdjustedPrice();
+        total += drink.getBasePrice();
+        total += side.getBasePrice();
         System.out.printf("  The total for this meal is %.2f ₽\n", total);
-        return total;
     }
 
 }
