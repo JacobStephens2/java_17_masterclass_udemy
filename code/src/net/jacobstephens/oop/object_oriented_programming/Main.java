@@ -12,7 +12,7 @@ public class Main {
 
             System.out.printf("\nWelcome to Bill's Burgers!\n");
 
-            System.out.println("Here's a list of items in the default meal.");
+            System.out.println("Here's a list of items in the regular meal.");
 
             defaultMeal.printItemizedList();
             defaultMeal.printTotal();

@@ -1,5 +1,7 @@
 package net.jacobstephens.oop.object_oriented_programming;
 
+import java.util.Objects;
+
 public class Item {
     protected String name;
     protected String type;
@@ -29,6 +31,21 @@ public class Item {
         this("coke", "drink", 87, "small");
     }
 
+    public static Item getItem(String type, String name) {
+        return switch (type) {
+            case "burger" -> {
+                if(Objects.equals(name, "deluxe")) {
+                    yield new DeluxeBurger();
+                } else {
+                    yield new Burger(name);
+                }
+            }
+            case "drink" -> new Item(name);
+            case "side" -> new Item(name, "side");
+            default -> new Item();
+        };
+    }
+
     public String getName() {
         return name;
     }
@@ -43,10 +60,6 @@ public class Item {
 
     public void addToPrice(double price) {
         this.price += price;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public double getBasePrice() {

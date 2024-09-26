@@ -6,24 +6,20 @@ import java.util.Objects;
 // (ex. different types of burgers)
 public class MealOrder {
 
-    public Burger burger;
+    public Item burger;
     public Item drink;
     public Item side;
 
     public MealOrder() {
-        burger = new Burger();
-        drink = new Item();
-        side = new Item("fries", "side", 58, "regular");
+        burger = Item.getItem("burger", "regular");
+        drink = Item.getItem("drink", "coke");
+        side = Item.getItem("side", "fries");
     }
 
     public MealOrder(String burgerName, String drinkName, String sideName) {
-        burger = new Burger(burgerName);
-        drink = new Item(drinkName);
-        side = new Item(sideName, "side");
-    }
-
-    public void addToppings() {
-        burger.addToppings();
+        burger = Item.getItem("burger", burgerName);
+        drink = Item.getItem("drink", drinkName);
+        side = Item.getItem("side", sideName);
     }
 
     public void setDrinkSize(String size) {
