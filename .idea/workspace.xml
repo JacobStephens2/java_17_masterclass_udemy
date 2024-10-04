@@ -9,16 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="113bb111-1bc0-4cdb-81c1-5495a4d4df56" name="Changes" comment="add program that uses ArrayList and List to add and remove items to a grocery list">
-      <change afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/ArrayList/MobilePhone/Contact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/ArrayList/MobilePhone/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/ArrayList/MobilePhone/MobilePhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/object_oriented_programming/DeluxeBurger.java" afterDir="false" />
+    <list default="true" id="113bb111-1bc0-4cdb-81c1-5495a4d4df56" name="Changes" comment="Make DeluxeBurger a class and add a factory pattern method on the Item class, getItem">
+      <change afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/LinkedList/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/LinkedList/Town.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/examples/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/object_oriented_programming/Burger.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/object_oriented_programming/Burger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/object_oriented_programming/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/object_oriented_programming/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/object_oriented_programming/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/object_oriented_programming/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/object_oriented_programming/MealOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/oop/object_oriented_programming/MealOrder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +58,9 @@
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.net.jacobstephens.LinkedList.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.net.jacobstephens.arrays.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.net.jacobstephens.examples.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.net.jacobstephens.oop.inheritance.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.net.jacobstephens.oop.object_oriented_programming.Main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -87,7 +84,7 @@
       <recent name="$PROJECT_DIR$/code/src/net/jacobstephens/oop/inheritance" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.net.jacobstephens.oop.object_oriented_programming.Main">
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="net.jacobstephens.ArrayList.Main" />
       <module name="code" />
@@ -352,7 +349,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722981311799</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add MobilePhone program that uses ArrayList and List">
+      <option name="closed" value="true" />
+      <created>1727383952845</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1727383952845</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Make DeluxeBurger a class and add a factory pattern method on the Item class, getItem">
+      <option name="closed" value="true" />
+      <created>1727384027693</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1727384027693</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -377,7 +390,9 @@
     <MESSAGE value="enable choosing toppings on burger" />
     <MESSAGE value="adjust price of burger based on toppings" />
     <MESSAGE value="add program that uses ArrayList and List to add and remove items to a grocery list" />
-    <option name="LAST_COMMIT_MESSAGE" value="add program that uses ArrayList and List to add and remove items to a grocery list" />
+    <MESSAGE value="add MobilePhone program that uses ArrayList and List" />
+    <MESSAGE value="Make DeluxeBurger a class and add a factory pattern method on the Item class, getItem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make DeluxeBurger a class and add a factory pattern method on the Item class, getItem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -387,6 +402,11 @@
           <line>5</line>
           <properties field="myNumber" class="net.jacobstephens.ArrayList.MobilePhone.Contact" />
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/code/src/net/jacobstephens/oop/object_oriented_programming/Main.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
