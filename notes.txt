@@ -1,0 +1,22 @@
+tonerLevel
+pagesPrinted
+duplex
+
+Printer class
+
+calling code access two methods
+- addToner(), added to toner level, tonerAmount
+return -1
+toner level never above 100pct or below 0 pct
+
+printPages()
+- account duplex, return calc num sheets of paper
+sheet number add to pagesPrinted
+print message duplex printer
+
+pages % 2, modulo 2, duplex
+(pages / 2) + (pages % 2) (give remainder, 0 for even or 1 for odd)
+ternary operator
+
+what's the encapsulation part of this?
+
