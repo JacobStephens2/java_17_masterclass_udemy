@@ -9,11 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="113bb111-1bc0-4cdb-81c1-5495a4d4df56" name="Changes" comment="Make DeluxeBurger a class and add a factory pattern method on the Item class, getItem">
-      <change afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/LinkedList/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/LinkedList/Town.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/examples/Main.java" afterDir="false" />
+    <list default="true" id="113bb111-1bc0-4cdb-81c1-5495a4d4df56" name="Changes" comment="add notes">
+      <change afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/autoboxing/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/autoboxing/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/autoboxing/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/net/jacobstephens/LinkedList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/net/jacobstephens/LinkedList/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,28 +54,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.net.jacobstephens.LinkedList.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.net.jacobstephens.arrays.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.net.jacobstephens.examples.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.net.jacobstephens.oop.inheritance.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.net.jacobstephens.oop.object_oriented_programming.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/pink/Stephens Dropbox/Jacob Stephens/Jacob-Personal/technology/java/java_17_masterclass_udemy&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/pink/Documents/java/java_17_masterclass_udemy/object_oriented_programming/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.30804598&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Application.Main.executor": "Run",
+    "Application.net.jacobstephens.LinkedList.Main.executor": "Run",
+    "Application.net.jacobstephens.arrays.Main.executor": "Run",
+    "Application.net.jacobstephens.autoboxing.Main.executor": "Run",
+    "Application.net.jacobstephens.examples.Main.executor": "Run",
+    "Application.net.jacobstephens.oop.inheritance.Main.executor": "Run",
+    "Application.net.jacobstephens.oop.object_oriented_programming.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/pink/Stephens Dropbox/Jacob Stephens/Jacob-Personal/technology/java/java_17_masterclass_udemy",
+    "onboarding.tips.debug.path": "/Users/pink/Documents/java/java_17_masterclass_udemy/object_oriented_programming/src/Main.java",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.30804598",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/code/src/net/jacobstephens/oop/object_oriented_programming" />
@@ -84,7 +86,7 @@
       <recent name="$PROJECT_DIR$/code/src/net/jacobstephens/oop/inheritance" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.net.jacobstephens.autoboxing.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="net.jacobstephens.ArrayList.Main" />
       <module name="code" />
@@ -104,6 +106,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="net.jacobstephens.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="net.jacobstephens.autoboxing.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.jacobstephens.autoboxing.Main" />
+      <module name="code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.jacobstephens.autoboxing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,11 +177,13 @@
       <item itemvalue="Application.net.jacobstephens.oop.composition.Main" />
       <item itemvalue="Application.net.jacobstephens.oop.encapsulation.Main" />
       <item itemvalue="Application.net.jacobstephens.oop.polymorphism.Main" />
+      <item itemvalue="Application.net.jacobstephens.autoboxing.Main" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.net.jacobstephens.arrays.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.net.jacobstephens.autoboxing.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.net.jacobstephens.arrays.Main" />
       </list>
@@ -365,8 +382,49 @@
       <option name="project" value="LOCAL" />
       <updated>1727384027693</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="add Scanner example">
+      <option name="closed" value="true" />
+      <created>1728077464867</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1728077464867</updated>
+    </task>
+    <task id="LOCAL-00025" summary="start to crete a LinkedList of towns">
+      <option name="closed" value="true" />
+      <created>1728077492866</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1728077492866</updated>
+    </task>
+    <task id="LOCAL-00026" summary="add notes">
+      <option name="closed" value="true" />
+      <created>1728077524337</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1728077524337</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -392,7 +450,10 @@
     <MESSAGE value="add program that uses ArrayList and List to add and remove items to a grocery list" />
     <MESSAGE value="add MobilePhone program that uses ArrayList and List" />
     <MESSAGE value="Make DeluxeBurger a class and add a factory pattern method on the Item class, getItem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Make DeluxeBurger a class and add a factory pattern method on the Item class, getItem" />
+    <MESSAGE value="add Scanner example" />
+    <MESSAGE value="start to crete a LinkedList of towns" />
+    <MESSAGE value="add notes" />
+    <option name="LAST_COMMIT_MESSAGE" value="add notes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -407,6 +468,11 @@
           <url>file://$PROJECT_DIR$/code/src/net/jacobstephens/oop/object_oriented_programming/Main.java</url>
           <line>7</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/code/src/net/jacobstephens/LinkedList/Main.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
